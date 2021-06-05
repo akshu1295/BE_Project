@@ -1,0 +1,10 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "server"]
+	url = ssh://freetemp@free-template.co:18765/~/templates-git/cargo.git
+	fetch = +refs/heads/*:refs/remotes/server/*
